@@ -1,0 +1,30 @@
+/* didn't have time to stylized this properly*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+div#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+div#move {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+div#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
